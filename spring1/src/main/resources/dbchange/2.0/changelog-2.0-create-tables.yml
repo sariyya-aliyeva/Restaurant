@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - changeSet:
+      id: Create contact_us table
+      author: Sariyya Aliyeva
+      changes:
+        - sqlFile:
+            path: dbchange/2.0/changelog-2.0-create-tables.sql

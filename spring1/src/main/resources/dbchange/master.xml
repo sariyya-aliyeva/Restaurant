@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+    <include file="dbchange/2.0/changelog-2.0-create-tables.yml"/>
+    <include file="dbchange/4.0/changelog-4.0-create-tables.yml"/>
+    <include file="dbchange/5.0/changelog-5.0-create-tables.yml"/>
+</databaseChangeLog>

@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - changeSet:
+      id: Create reservation table
+      author: Sariyya Aliyeva
+      changes:
+        - sqlFile:
+            path: dbchange/5.0/changelog-5.0-create-tables.sql
