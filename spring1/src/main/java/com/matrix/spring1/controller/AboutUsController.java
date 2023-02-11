@@ -29,7 +29,7 @@ public class AboutUsController {
 
     @ApiOperation(value = "Get by query", response = AboutUsDto.class)
     @GetMapping(value = "/get/query")
-    public List<AboutUsDto> findByHeadingAndText1AndText2AndText3AndText4(@RequestParam String heading,
+    public List<AboutUsDto> findByHeadingAndText1AndText2AndText3AndText4(@RequestParam(required = false) String heading,
                                                                           @RequestParam(required = false) String text1,
                                                                           @RequestParam(required = false) String text2,
                                                                           @RequestParam(required = false) String text3,
